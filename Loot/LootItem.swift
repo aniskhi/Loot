@@ -37,18 +37,18 @@ let lootItems: [LootItem] = [
     // Création d'un 'LootItem' avec des attributs spécifiques
     LootItem(id: UUID.init(), // Identifiant unique pour l'objet de butin
              quantity: 3, // Quantité de cet objet
-             name: "Crystal Sword", // Nom de l'objet
+             name: "Anneau", // Nom de l'objet
              type: .magic, // Type de l'objet (magique)
              rarity: .epic, // Rareté de l'objet (épique)
              attackStrength: 50, // Force d'attaque de l'objet
              game: Game(name: "Elden Ring", // Jeu associé à cet objet
                         genre: .rpg, // Genre du jeu (RPG)
-                        coverName: "elden_ring")), // Nom de la couverture du jeu
+                        coverName: "elden_ring")),
 
     // Création d'un autre 'LootItem' avec des attributs similaires
     LootItem(id: UUID.init(),
              quantity: 1,
-             name: "Flame Bow",
+             name: "Excalibur",
              type: .fire,
              rarity: .legendary,
              attackStrength: 70,
@@ -59,7 +59,7 @@ let lootItems: [LootItem] = [
     // Création d'un autre 'LootItem'
     LootItem(id: UUID.init(),
              quantity: 5,
-             name: "Ice Dagger",
+             name: "Soin",
              type: .ice,
              rarity: .rare,
              attackStrength: 30,
@@ -70,7 +70,7 @@ let lootItems: [LootItem] = [
     // Création d'un autre 'LootItem'
     LootItem(id: UUID.init(),
              quantity: 2,
-             name: "Wind Cloak",
+             name: "Epée du désespoir",
              type: .wind,
              rarity: .uncommon,
              attackStrength: 10,
@@ -81,7 +81,7 @@ let lootItems: [LootItem] = [
     // Création d'un autre 'LootItem'
     LootItem(id: UUID.init(),
              quantity: 4,
-             name: "Poison Ring",
+             name: "Flamme",
              type: .poison,
              rarity: .unique,
              attackStrength: 20,

@@ -13,13 +13,12 @@ struct LootItem: Hashable, Identifiable{
     var quantity: Int = 1
     var name: String = ""
     var type: ItemType = ItemType.bow
-    var rarity: Rarity = Rarity.uniq
+    var rarity: Rarity = Rarity.unique
     var attackStrength: Int?
     var game: Game = Game.emptyGame
 }
 
 enum ItemType: String, CaseIterable{
-
     case magic = "⭐️"
     case fire = "🔥"
     case ice = "❄️"
@@ -84,9 +83,11 @@ let lootItems: [LootItem] = [
              quantity: 4,
              name: "Poison Ring",
              type: .poison,
-             rarity: .uniq,
+             rarity: .unique,
              attackStrength: 20,
              game: Game(name: "CS:GO",
                         genre: .fps,
-                        coverName: nil)) // Pas de nom de couverture spécifié
+                        coverName: "CSGO"))
+    
+    
 ]

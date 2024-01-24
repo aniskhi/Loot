@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB34C9072B60FC1800C6D634 /* ItemDetailsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB34C9052B60FC1800C6D634 /* ItemDetailsHeader.swift */; };
+		CB34C9082B60FC1800C6D634 /* LootRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB34C9062B60FC1800C6D634 /* LootRow.swift */; };
+		CB34C90A2B60FC4300C6D634 /* ItemDetailsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB34C9092B60FC4300C6D634 /* ItemDetailsList.swift */; };
 		CBFF55662B5A793A0093FBCF /* LootApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFF55652B5A793A0093FBCF /* LootApp.swift */; };
 		CBFF55682B5A793A0093FBCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFF55672B5A793A0093FBCF /* ContentView.swift */; };
 		CBFF556A2B5A793C0093FBCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFF55692B5A793C0093FBCF /* Assets.xcassets */; };
@@ -14,12 +17,13 @@
 		CBFF55742B5A7FDB0093FBCF /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFF55732B5A7FDB0093FBCF /* AddItemView.swift */; };
 		CBFF55762B5AA4060093FBCF /* LootItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFF55752B5AA4060093FBCF /* LootItem.swift */; };
 		CBFF55782B5AA5200093FBCF /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFF55772B5AA5200093FBCF /* Game.swift */; };
-		CBFF557B2B5AAA360093FBCF /* co2lbd.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFF55792B5AAA360093FBCF /* co2lbd.png */; };
-		CBFF557C2B5AAA360093FBCF /* co2kqa.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFF557A2B5AAA360093FBCF /* co2kqa.png */; };
 		CBFF55822B5AC9A00093FBCF /* LootDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFF55812B5AC9A00093FBCF /* LootDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB34C9052B60FC1800C6D634 /* ItemDetailsHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemDetailsHeader.swift; path = "../App-SwiftUI/ItemDetailsHeader.swift"; sourceTree = "<group>"; };
+		CB34C9062B60FC1800C6D634 /* LootRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LootRow.swift; path = "../App-SwiftUI/LootRow.swift"; sourceTree = "<group>"; };
+		CB34C9092B60FC4300C6D634 /* ItemDetailsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemDetailsList.swift; path = "../App-SwiftUI/ItemDetailsList.swift"; sourceTree = "<group>"; };
 		CBFF55622B5A793A0093FBCF /* Loot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFF55652B5A793A0093FBCF /* LootApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootApp.swift; sourceTree = "<group>"; };
 		CBFF55672B5A793A0093FBCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,8 +32,6 @@
 		CBFF55732B5A7FDB0093FBCF /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 		CBFF55752B5AA4060093FBCF /* LootItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootItem.swift; sourceTree = "<group>"; };
 		CBFF55772B5AA5200093FBCF /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
-		CBFF55792B5AAA360093FBCF /* co2lbd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = co2lbd.png; sourceTree = "<group>"; };
-		CBFF557A2B5AAA360093FBCF /* co2kqa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = co2kqa.png; sourceTree = "<group>"; };
 		CBFF55812B5AC9A00093FBCF /* LootDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LootDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,9 +49,10 @@
 		CBFF55592B5A793A0093FBCF = {
 			isa = PBXGroup;
 			children = (
-				CBFF55732B5A7FDB0093FBCF /* AddItemView.swift */,
-				CBFF55772B5AA5200093FBCF /* Game.swift */,
-				CBFF55752B5AA4060093FBCF /* LootItem.swift */,
+				CB34C9092B60FC4300C6D634 /* ItemDetailsList.swift */,
+				CB34C9052B60FC1800C6D634 /* ItemDetailsHeader.swift */,
+				CBFF55812B5AC9A00093FBCF /* LootDetailView.swift */,
+				CB34C9062B60FC1800C6D634 /* LootRow.swift */,
 				CBFF55642B5A793A0093FBCF /* Loot */,
 				CBFF55632B5A793A0093FBCF /* Products */,
 			);
@@ -66,12 +69,12 @@
 		CBFF55642B5A793A0093FBCF /* Loot */ = {
 			isa = PBXGroup;
 			children = (
+				CBFF55752B5AA4060093FBCF /* LootItem.swift */,
+				CBFF55732B5A7FDB0093FBCF /* AddItemView.swift */,
+				CBFF55772B5AA5200093FBCF /* Game.swift */,
 				CBFF55652B5A793A0093FBCF /* LootApp.swift */,
 				CBFF55672B5A793A0093FBCF /* ContentView.swift */,
-				CBFF55812B5AC9A00093FBCF /* LootDetailView.swift */,
 				CBFF55692B5A793C0093FBCF /* Assets.xcassets */,
-				CBFF557A2B5AAA360093FBCF /* co2kqa.png */,
-				CBFF55792B5AAA360093FBCF /* co2lbd.png */,
 				CBFF556B2B5A793C0093FBCF /* Preview Content */,
 			);
 			path = Loot;
@@ -145,8 +148,6 @@
 			files = (
 				CBFF556D2B5A793C0093FBCF /* Preview Assets.xcassets in Resources */,
 				CBFF556A2B5A793C0093FBCF /* Assets.xcassets in Resources */,
-				CBFF557C2B5AAA360093FBCF /* co2kqa.png in Resources */,
-				CBFF557B2B5AAA360093FBCF /* co2lbd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,7 +162,10 @@
 				CBFF55782B5AA5200093FBCF /* Game.swift in Sources */,
 				CBFF55742B5A7FDB0093FBCF /* AddItemView.swift in Sources */,
 				CBFF55822B5AC9A00093FBCF /* LootDetailView.swift in Sources */,
+				CB34C9072B60FC1800C6D634 /* ItemDetailsHeader.swift in Sources */,
+				CB34C90A2B60FC4300C6D634 /* ItemDetailsList.swift in Sources */,
 				CBFF55762B5AA4060093FBCF /* LootItem.swift in Sources */,
+				CB34C9082B60FC1800C6D634 /* LootRow.swift in Sources */,
 				CBFF55662B5A793A0093FBCF /* LootApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

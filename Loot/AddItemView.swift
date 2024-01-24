@@ -3,7 +3,7 @@
 //  Loot
 //
 //  Created by Anis KHIARI on 1/19/24.
-
+//
 import SwiftUI
 
 struct AddItemView: View {
@@ -93,7 +93,7 @@ enum Rarity: String, CaseIterable {
     case rare = "rare"
     case epic = "epic"
     case legendary = "legendary"
-    case uniq = "uniq"
+    case unique = "unique"
 
     var color: Color {
         switch self {
@@ -107,7 +107,7 @@ enum Rarity: String, CaseIterable {
             return Color.purple
         case .legendary:
             return Color.orange
-        case .uniq:
+        case .unique:
             return Color.red
         }
     }

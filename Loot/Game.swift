@@ -21,12 +21,12 @@ struct Game: Identifiable, Hashable {
 }
 
 let availableGames = [
-    Game(name: "Elden Ring", genre: .rpg, coverName: nil),
-    Game(name: "Skyrim", genre: .rpg, coverName: nil),
-    Game(name: "WoW", genre: .mmorpg, coverName: nil),
-    Game(name: "CS:GO", genre: .fps, coverName: nil),
-    Game(name: "GTA V", genre: .looter, coverName: nil),
-    Game(name: "Kakarot", genre: .looter, coverName: nil),
-    Game(name: "Fifa", genre: .looter, coverName: nil)
+    Game(name: "Elden Ring", genre: .rpg, coverName: "elden_ring"),
+    Game(name: "Skyrim", genre: .rpg, coverName: "skyrim"),
+    Game(name: "WoW", genre: .mmorpg, coverName: "wow"),
+    Game(name: "CS:GO", genre: .fps, coverName: "CSGO"),
+    Game(name: "GTA V", genre: .looter, coverName: "GTA"),
+    Game(name: "Kakarot", genre: .looter, coverName: "Kakarot"),
+    Game(name: "Fifa", genre: .looter, coverName: "Fifa")
 
 ]

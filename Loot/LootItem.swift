@@ -24,7 +24,7 @@ enum ItemType: String, CaseIterable{
     case ice = "❄️"
     case wind = "💨"
     case poison = "☠️"
-    case thunder = "⚡️"
+    case thunder = "⚡️"	
     case dagger = "🗡️"
     case shield = "🛡️"
     case bow = "🏹"
